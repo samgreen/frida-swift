@@ -2,14 +2,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "frida-swift",
+    name: "Frida",
     platforms: [
         .macOS(.v13)
     ],
     products: [
-        .library(name: "frida-swift", targets: ["frida-swift"])
+        .library(name: "frida", targets: ["frida"])
     ],
     targets: [
-        .target(name: "frida-swift", path: "Frida")
+        .target(name: "frida", path: "Frida")
     ]
 )
