@@ -10,6 +10,6 @@ let package = Package(
         .library(name: "frida_swift", targets: ["frida_swift"])
     ],
     targets: [
-        .target(name: "frida_swift", path: "frida_swift")
+        .target(name: "frida_swift")
     ]
 )
